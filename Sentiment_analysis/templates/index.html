@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis Tool</title>
+</head>
+<body>
+    <h1>Sentiment Analysis Tool</h1>
+    <form method="POST" action="/">
+        <label for="user_input">Enter a sentence:</label><br>
+        <input type="text" id="user_input" name="user_input"><br><br>
+        <button type="submit">Analyze Sentiment</button>
+    </form>
+    <br>
+    <p>Sentiment Prediction: <strong>{{ prediction_result }}</strong></p>
+</body>
+</html>
